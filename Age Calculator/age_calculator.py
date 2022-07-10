@@ -23,6 +23,7 @@ name = input("Enter your name: ")
 birthday = input("Enter your birthdate in DD/MM/YYYY format: ")
 try:
     DOB = datetime.datetime.strptime(birthday,"%d/%m/%Y").date()
-    print(calculate_age(DOB))
+    # print(calculate_age(DOB))
+    print(f"Hey {name}!!! \nYour age is {calculate_age(DOB)}.")
 except ValueError:
     print("Your entered birthdate is not correct")

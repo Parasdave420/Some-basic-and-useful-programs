@@ -11,8 +11,6 @@ You can visit [here](https://www.python.org/downloads/) to download Python.
 
 You can install ``cryptography`` with:
 
-.. code-block:: console
-
     $ pip install cryptography
 
 
